@@ -93,16 +93,6 @@ const Help: React.FC = () => {
               Enviar Mensagem
             </button>
           </form>
-
-          <div className="mt-8 text-center text-sm text-gray-600">
-            <p>Você também pode nos enviar um email diretamente para:</p>
-            <a 
-              href="mailto:contato@papoamigo.com"
-              className="text-blue-500 hover:text-blue-600"
-            >
-              contato@papoamigo.com
-            </a>
-          </div>
         </div>
       </div>
     </div>
