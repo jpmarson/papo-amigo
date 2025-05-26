@@ -10,6 +10,7 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import Terms from './components/Terms';
 import Privacy from './components/Privacy';
+import Help from './components/Help';
 
 function HomePage() {
   return (
@@ -45,6 +46,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/termos-de-uso" element={<Terms />} />
             <Route path="/politica-de-privacidade" element={<Privacy />} />
+            <Route path="/ajuda" element={<Help />} />
           </Routes>
         </main>
         <Footer />
